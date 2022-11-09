@@ -983,7 +983,7 @@ const {
   retry
 } = __nccwpck_require__(6979);
 
-const MAYBE_READY = ["clean", "has_hooks", "unknown", "unstable"];
+const MAYBE_READY = ["clean", "has_hooks", "unknown", "unstable", "blocked"];
 const NOT_READY = ["dirty", "draft"];
 
 const PR_PROPERTY = new RegExp("{pullRequest.([^}]+)}", "g");
